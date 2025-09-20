@@ -29,10 +29,11 @@ Over a 10-week program, you'll build skills and a project portfolio documenting 
   sudo apt-get update 
   sudo apt-get install iverilog
 </pre>
-
+![iverilog]
 ---
 ## Installing GTKWave
 <pre>
   sudo apt-get update 
   sudo apt-get install gtkwave
 </pre>
+![GTK](https://github.com/Muthukumarj-42/vsd-tapeout-w0/blob/5ca9875a5d730eabe52feda03a37a3f6d307f7bb/GTKwave.png)
