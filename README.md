@@ -23,13 +23,14 @@ Over a 10-week program, you'll build skills and a project portfolio documenting 
    make  
    sudo make install
 </pre>
+![yosys](https://github.com/Muthukumarj-42/vsd-tapeout-w0/blob/a1e672c3e251bfa996f83b93726ac7061b1f8bf6/yosys.png)
 ---
 ## Installing Iverilog
 <pre>
   sudo apt-get update 
   sudo apt-get install iverilog
 </pre>
-![iverilog]
+![iverilog](https://github.com/Muthukumarj-42/vsd-tapeout-w0/blob/a1e672c3e251bfa996f83b93726ac7061b1f8bf6/iverilog.jpg)
 ---
 ## Installing GTKWave
 <pre>
