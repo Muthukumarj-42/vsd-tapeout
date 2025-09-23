@@ -4,6 +4,7 @@
 
 Synthesis is the process of turning a Verilog RTL description into a **gate-level circuit**.
 Here we use **Yosys** as the synthesizer.
+![yosys](https://github.com/Muthukumarj-42/vsd-tapeout/blob/7e3b9e0a37550999c90a1cfa88c9fd9f12853d4e/week-1%20/%20pictures/yosys_flow.png)
 
 
 ### 2. Netlist Output
