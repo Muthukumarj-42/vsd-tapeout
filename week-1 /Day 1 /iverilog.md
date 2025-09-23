@@ -42,3 +42,21 @@ ls
 cd verilog_files
 ```
 ![gitclone](https://github.com/Muthukumarj-42/vsd-tapeout/blob/d599eae68919a34346f657b7544c31b71737f822/week-1%20/%20pictures/gitclone.png)
+
+### 🔹 Step 6: Run the verilog files using iverilog
+
+Using iverilog run the Design file code and testbench file
+
+*Example*
+* Design file (good_counter.v)
+* Test_bench file (tb_good_counter.v)
+```
+iverilog  good_counter.v tb_good_counter.v
+```
+After running in the iverilog. The output file will be create in the name **a.out**.
+![aout]()
+Run the a.out
+```
+./a.out
+```
+![vcd]()
