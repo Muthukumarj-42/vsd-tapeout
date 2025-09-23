@@ -15,6 +15,7 @@
 
   * **Design module** → has **primary inputs and outputs**.
   * **Testbench** → has **no primary inputs or outputs**, it only drives and monitors the design.
+  ![testbench](https://github.com/Muthukumarj-42/vsd-tapeout/blob/06684ce6edfae7450a923903edf8f8c745cb6aa7/week-1%20/%20pictures/teshbench.png)
 
 ## **3. How Simulation Works**
 
