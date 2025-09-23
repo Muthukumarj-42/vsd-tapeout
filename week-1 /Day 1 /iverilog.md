@@ -59,4 +59,13 @@ Run the a.out
 ```
 ./a.out
 ```
-![vcd]()
+![vcd](https://github.com/Muthukumarj-42/vsd-tapeout/blob/7a312a3936d6a91f6d279caf50d925375332c2a5/week-1%20/%20pictures/vcdfile.png)
+
+### 🔹 Step 7: GTKwave 
+
+Using GTKwave we can see the output waveform in the vcd file
+```
+gtkwave tb_good_counter.vcd
+```
+![wave]()
+
