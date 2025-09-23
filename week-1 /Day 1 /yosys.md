@@ -16,6 +16,7 @@ Here we use **Yosys** as the synthesizer.
 
 * The netlist can be simulated again with **iverilog** to confirm it behaves like the RTL code.
 * The **same testbench** that was used for RTL can be reused for this check.
+![check](https://github.com/Muthukumarj-42/vsd-tapeout/blob/afe24945b6407691f0075109e25efa6c6bf30d0a/week-1%20/%20pictures/verification_of_synthesis.png)
 
 ### 4. Key Point
 
