@@ -69,3 +69,15 @@ gtkwave tb_good_counter.vcd
 ```
 ![wave](https://github.com/Muthukumarj-42/vsd-tapeout/blob/604878e63b7c69fba573cec05b018ad20fd2bda2/week-1%20/%20pictures/wave.png)
 
+---
+**To view the verilog (design or testbench) file**
+To view the verilog file we need to install vim 
+```
+apt-get update
+apt-get install vim-gtk3 -y
+```
+To view the design file 
+```
+gvim filename.v
+```
+
