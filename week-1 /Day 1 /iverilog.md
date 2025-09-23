@@ -54,7 +54,7 @@ Using iverilog run the Design file code and testbench file
 iverilog  good_counter.v tb_good_counter.v
 ```
 After running in the iverilog. The output file will be create in the name **a.out**.
-![aout]()
+![aout](https://github.com/Muthukumarj-42/vsd-tapeout/blob/1f1f18ed05e939215ee4508279e827adf4c75730/week-1%20/%20pictures/aout.png)
 Run the a.out
 ```
 ./a.out
