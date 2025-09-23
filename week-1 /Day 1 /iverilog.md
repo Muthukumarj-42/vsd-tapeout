@@ -67,5 +67,5 @@ Using GTKwave we can see the output waveform in the vcd file
 ```
 gtkwave tb_good_counter.vcd
 ```
-![wave]()
+![wave](https://github.com/Muthukumarj-42/vsd-tapeout/blob/604878e63b7c69fba573cec05b018ad20fd2bda2/week-1%20/%20pictures/wave.png)
 
