@@ -80,5 +80,6 @@ To view the design file
 ```
 gvim filename.v
 ```
+![givmbash](https://github.com/Muthukumarj-42/vsd-tapeout/blob/5d1043e2db2f528b8bf5f954f36dbe0475163da2/week-1%20/%20pictures/gvim_bash.png)
 ![gvim](https://github.com/Muthukumarj-42/vsd-tapeout/blob/01c03fd3547673fb5f0b851c830b850a7beda11b/week-1%20/%20pictures/gvim.png)
 
