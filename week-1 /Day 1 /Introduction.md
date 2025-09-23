@@ -22,6 +22,7 @@
 * The simulator **monitors all input signals** given to the design.
 * When an input changes → the output is **re-evaluated**.
 * If inputs remain stable → the output stays **unchanged**.
+![flow](https://github.com/Muthukumarj-42/vsd-tapeout/blob/08369b1ec28a67f7e5f76922f7696de57000c5b7/week-1%20/%20pictures/flow.png)
 
 ## **Important Notes**
 ✔ A **design module** can have one or more primary **inputs/outputs**.
