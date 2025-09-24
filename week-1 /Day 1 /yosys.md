@@ -63,10 +63,12 @@ In yosys
 ```
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-read_verilog good_mux.v
-synth -top good_mux
+read_verilog good_counter.v
+synth -top good_counter
+```
+![yosys](https://github.com/Muthukumarj-42/vsd-tapeout/blob/94b7a251debf5d045f4ffab26308c53eb196d0ed/week-1%20/%20pictures/yosys.png)
+```
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
-![yosys]()
-
+![abc]()
