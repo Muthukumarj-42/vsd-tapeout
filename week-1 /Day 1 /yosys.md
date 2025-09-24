@@ -22,3 +22,22 @@ Here we use **Yosys** as the synthesizer.
 
 The **inputs and outputs** of the design stay unchanged after synthesis.
 That’s why you can run RTL and netlist verification using the same testbench.
+
+### Explanation of `.lib`
+
+* A **`.lib` file** is a **library of logical modules**.
+* It contains standard building blocks like **AND, OR, NOT gates**.
+* Each gate can have **multiple versions (flavors)**:
+
+  * Example: 2-input AND gate may come in **slow, medium, fast** versions.
+* The difference between versions is mainly in **speed, power consumption, and area**.
+
+  * Faster versions switch quickly but need more power and take more space.
+  * Slower versions save power and area but respond slower.
+
+| Type of Cell   | Switching Speed     | Power Usage | Chip Area | Best Use Case                                                |
+| -------------- | ------------------- | ----------- | --------- | ------------------------------------------------------------ |
+| **Fast Cells** | Very quick          | High        | Bigger    | Used in paths where timing is critical (must meet deadlines) |
+| **Slow Cells** | Deliberate (slower) | Low         | Smaller   | Used in non-critical paths (where extra delay is acceptable) |
+
+![lib]()
