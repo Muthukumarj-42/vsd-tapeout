@@ -71,4 +71,7 @@ synth -top good_counter
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
-![abc]()
+![abc](https://github.com/Muthukumarj-42/vsd-tapeout/blob/c2dd39242c7db48f80762518442a51de20ffe762/week-1%20/%20pictures/abc%20liberty.png)
+
+The show command will display the schematic of the design file
+![schematic]()
