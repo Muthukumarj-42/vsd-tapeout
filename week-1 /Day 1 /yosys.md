@@ -81,6 +81,7 @@ write_verilog good_counter_netlist.v
 write_verilog -noattr good_counter_netlist.v
 !gvim good_counter_netlist.v
 ```
+![write](https://github.com/Muthukumarj-42/vsd-tapeout/blob/27b06df50751d7be2fb42c4a60c2280c95c25b85/week-1%20/%20pictures/write_verilog.png)
 The code in **good_counter_netlist.v**
 ```
 (* top =  1  *)
