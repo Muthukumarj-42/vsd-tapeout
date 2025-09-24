@@ -1,4 +1,4 @@
-# **Day 1: Getting Started with Icarus Verilog (iverilog) and **
+# Day 1: Getting Started with Icarus Verilog (iverilog) and Yosys - Converting RTL to Netlist
 
 **Goal:** Learn the basics of RTL simulation using Icarus Verilog and understand the importance of testbenches.
 
