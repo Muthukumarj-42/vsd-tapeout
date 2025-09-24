@@ -29,15 +29,23 @@ That’s why you can run RTL and netlist verification using the same testbench.
 * It contains standard building blocks like **AND, OR, NOT gates**.
 * Each gate can have **multiple versions (flavors)**:
 
-  * Example: 2-input AND gate may come in **slow, medium, fast** versions.
-* The difference between versions is mainly in **speed, power consumption, and area**.
-
+  * 2-input AND gate may come in **slow, medium, fast** versions.
+  * The difference between versions is mainly in **speed, power consumption, and area**.
   * Faster versions switch quickly but need more power and take more space.
   * Slower versions save power and area but respond slower.
+
+The **use of `.lib`** in VLSI/ASIC design is:
+
+* It acts as a **standard cell library file**.
+* Provides **information about logic gates and cells** (AND, OR, NOT, Flip-Flops, etc.).
+* Stores **timing, power, and area details** for each cell.
+* Helps the **synthesis tool (like Yosys, Design Compiler, etc.)** choose the right cells during circuit implementation.
+* Ensures that the final design meets **speed (timing), power, and area requirements**.
+
 
 | Type of Cell   | Switching Speed     | Power Usage | Chip Area | Best Use Case                                                |
 | -------------- | ------------------- | ----------- | --------- | ------------------------------------------------------------ |
 | **Fast Cells** | Very quick          | High        | Bigger    | Used in paths where timing is critical (must meet deadlines) |
 | **Slow Cells** | Deliberate (slower) | Low         | Smaller   | Used in non-critical paths (where extra delay is acceptable) |
 
-![lib]()
+![lib](https://github.com/Muthukumarj-42/vsd-tapeout/blob/2f2a86daf1bbe4f0f6beed2d24bf6afa3514f5d4/week-1%20/%20pictures/lib.png)
