@@ -49,3 +49,24 @@ The **use of `.lib`** in VLSI/ASIC design is:
 | **Slow Cells** | Deliberate (slower) | Low         | Smaller   | Used in non-critical paths (where extra delay is acceptable) |
 
 ![lib](https://github.com/Muthukumarj-42/vsd-tapeout/blob/2f2a86daf1bbe4f0f6beed2d24bf6afa3514f5d4/week-1%20/%20pictures/lib.png)
+
+### Yosys lab setup
+Move the folder which has teh verilog files
+```
+cd verilog_files
+```
+Initiate **Yosys** in the folder which has verilog files
+```
+yosys
+```
+In yosys 
+```
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog good_mux.v
+synth -top good_mux
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show
+```
+![yosys]()
+
