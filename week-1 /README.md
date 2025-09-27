@@ -6,7 +6,7 @@ This week introduces **Verilog RTL design**, **simulation using Icarus Verilog**
 
 ## 📅 Week 1 Schedule
 
-| Day   | Topic                                         | Link to README                   |
+| Day   | Topic                                         | Link to                   |
 | ----- | --------------------------------------------- | -------------------------------- |
 | Day 1 | Getting Started with Verilog & RTL Design     | [Day 1](https://github.com/Muthukumarj-42/vsd-tapeout/tree/d4da05086a79b3420b43c2d780c107826237aba1/week-1%20/Day%201%20)  |
 | Day 2 | Combinational Logic Circuits & Simulation     | [Day 2](https://github.com/Muthukumarj-42/vsd-tapeout/tree/d4da05086a79b3420b43c2d780c107826237aba1/week-1%20/Day%202%20) |
