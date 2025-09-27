@@ -56,7 +56,7 @@ abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 show multiple_modules
 write_verilog -noattr multiple_modules_hier.v
 ```
-![image]
+![image](https://github.com/Muthukumarj-42/vsd-tapeout/blob/7637b92eb4776ac78bb5d956ea0444b51bb032c2/week-1%20/Day%202%20/pictures/yosys-multiple.png)
 
 ### **Flat Synthesis Flow**
 
