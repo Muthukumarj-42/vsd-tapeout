@@ -57,6 +57,7 @@ show multiple_modules
 write_verilog -noattr multiple_modules_hier.v
 ```
 ![image](https://github.com/Muthukumarj-42/vsd-tapeout/blob/7637b92eb4776ac78bb5d956ea0444b51bb032c2/week-1%20/Day%202%20/pictures/yosys-multiple.png)
+![image](https://github.com/Muthukumarj-42/vsd-tapeout/blob/7e19f1bb11ed5aa9e07c314e094f74de57f705df/week-1%20/Day%202%20/pictures/flatten.png)
 
 ### **Flat Synthesis Flow**
 
