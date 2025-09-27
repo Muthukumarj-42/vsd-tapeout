@@ -43,7 +43,7 @@ module multiple_modules (input a, input b, input c, output y, output z);
 endmodule
 ```
 
-![image]
+![image](https://github.com/Muthukumarj-42/vsd-tapeout/blob/06d74d9d6552ea3bf18caf3caf4918671fc91c30/week-1%20/Day%202%20/pictures/mutliple_module.png)
 
 ### **Hierarchical Synthesis Flow**
 
