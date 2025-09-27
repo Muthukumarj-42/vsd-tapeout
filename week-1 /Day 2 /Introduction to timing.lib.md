@@ -21,7 +21,7 @@
 cd my_lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 gvim sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
-![image]
+![image](https://github.com/Muthukumarj-42/vsd-tapeout/blob/b48ec2890da277fde617ceebb56d76684ff22108/week-1%20/Day%202%20/pictures/libfile.png)
 
 ## 2. Hierarchical vs Flat Synthesis
 
