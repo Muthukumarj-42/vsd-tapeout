@@ -70,7 +70,7 @@ This reduces both area and delay.
 Navigate to the file and open it:
 
 ```bash
-cd Documents/Verilog/sky130RTLDesignAndSynthesisWorkshop/verilog_files/
+cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 vim opt_check.v
 ```
 
