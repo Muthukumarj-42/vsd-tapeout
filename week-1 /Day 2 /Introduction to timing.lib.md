@@ -18,11 +18,10 @@
 ### Open the `.lib` file
 
 ```
-cd /home/yeshwant/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src
-vim sky130_fd_sc_hd__tt_025C_1v80.lib
+cd my_lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+gvim sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
-
----
+![image]
 
 ## 2. Hierarchical vs Flat Synthesis
 
@@ -44,43 +43,43 @@ module multiple_modules (input a, input b, input c, output y, output z);
 endmodule
 ```
 
----
+![image]
 
 ### **Hierarchical Synthesis Flow**
 
 ```
 yosys
-read_liberty -lib /home/yeshwant/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib
 read_verilog multiple_modules.v
 synth -top multiple_modules
-abc -liberty /home/yeshwant/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 show multiple_modules
 write_verilog -noattr multiple_modules_hier.v
 ```
-
+![image]
 
 ### **Flat Synthesis Flow**
 
 ```
 yosys
-read_liberty -lib /home/yeshwant/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib
 read_verilog multiple_modules.v
 synth -top multiple_modules
 flatten
-abc -liberty /home/yeshwant/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 show multiple_modules
 write_verilog -noattr multiple_modules_flat.v
 ```
-
+![image]
 
 ### **Submodule Synthesis Flow**
 
 ```
 yosys
-read_liberty -lib /home/yeshwant/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib
 read_verilog multiple_modules.v
 synth -top sub_module1
-abc -liberty /home/yeshwant/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 write_verilog -noattr sub_module1_netlist.v
 ```
