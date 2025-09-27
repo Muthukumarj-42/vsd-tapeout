@@ -57,7 +57,7 @@ show multiple_modules
 write_verilog -noattr multiple_modules_hier.v
 ```
 ![image](https://github.com/Muthukumarj-42/vsd-tapeout/blob/7637b92eb4776ac78bb5d956ea0444b51bb032c2/week-1%20/Day%202%20/pictures/yosys-multiple.png)
-![image](https://github.com/Muthukumarj-42/vsd-tapeout/blob/7e19f1bb11ed5aa9e07c314e094f74de57f705df/week-1%20/Day%202%20/pictures/flatten.png)
+![image](https://github.com/Muthukumarj-42/vsd-tapeout/blob/a0a85896a4ac268bc62b83ea01628519d1407862/week-1%20/Day%202%20/pictures/show%20multiple.png)
 
 ### **Flat Synthesis Flow**
 
@@ -72,6 +72,7 @@ show multiple_modules
 write_verilog -noattr multiple_modules_flat.v
 ```
 ![image](https://github.com/Muthukumarj-42/vsd-tapeout/blob/7637b92eb4776ac78bb5d956ea0444b51bb032c2/week-1%20/Day%202%20/pictures/yosys-multiple.png)
+![image](https://github.com/Muthukumarj-42/vsd-tapeout/blob/7e19f1bb11ed5aa9e07c314e094f74de57f705df/week-1%20/Day%202%20/pictures/flatten.png)
 
 ### **Submodule Synthesis Flow**
 
