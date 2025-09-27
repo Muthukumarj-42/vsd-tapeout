@@ -85,6 +85,7 @@ abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 write_verilog -noattr sub_module1_netlist.v
 ```
+![image](https://github.com/Muthukumarj-42/vsd-tapeout/blob/82b66da49211f0f159f9003f3bbe5604186dfdc3/week-1%20/Day%202%20/pictures/sub_module1.png)
 
 ---
 
